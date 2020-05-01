@@ -1,0 +1,175 @@
+body {
+  background-image: url('background.jpg');
+  background-size: cover;
+}
+#name {
+  font-size: 5em;
+  text-align: center;
+  border: 1px solid #e6e6e6;
+  font-weight: bold;
+}
+.board {
+  background-color: gainsboro; 
+  height: 45em;
+  width: 35%; 
+  max-width: 40em;
+  min-width: 27.5em;
+  margin: auto;
+  margin-top: 6em;
+  border: 1px solid #e6e6e6;
+  border-radius: 30px;
+  }
+
+#screen {
+  background-color: black;
+  margin: auto;
+  margin-top: 3em;
+  height: 63%;
+  width: 80%;
+}
+
+#gameButton {
+  margin-top: 2em;
+  margin-left: 3em;
+}
+
+
+#moveButton {
+  margin-top: 1.25em;
+  margin-left: 4em;
+  height: 8em;
+  width: 10em;
+}
+
+#abButton {
+  float: right;
+  margin-top: 2.75em;
+  margin-right: 4em;
+  height: 5em;
+  width: 9.5em;
+}
+#main {
+  color: white;
+  font-size: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.gameTitle {
+  text-align: center;
+  padding-top: .5em;
+  font-size: 2.5em;
+  color: white;
+}
+
+.ticTac-container {
+  position: relative;
+  width: 100%;
+  height: 23em;
+  background-color: whitesmoke;
+}
+
+.ticTacToeStyle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  color: black; 
+  font-size: 1.5em;
+}
+
+.buttonStyle {
+  height: 110%;
+  width: 110%;
+  max-height: 125%;
+  max-width: 125%;
+  min-height: 100%;
+  min-width: 100%;
+  background-color: white;
+}
+
+.snake-container {
+  background-image: url('snakeGameBackground.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  width: 100%;
+  height: 23em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.snake-dot {
+  position: absolute;
+  width: 2%;
+  height: 2%;
+  background-color: green;
+  border: solid black;
+  z-index: 2;
+}
+
+.apple {
+  position: absolute;
+  width: 2%;
+  height: 2%;
+  background-color: red;
+  border: solid red;
+  z-index: 1;
+}
+
+.rps-container {
+  background-image: url('rpsBackground.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: relative;
+  width: 100%;
+  height: 23em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: bisque;
+}
+
+.rps-button {
+  margin-top: 3em;
+  height: 33%;
+  width: 33%;
+}
+
+.rps-text{
+  font-size: 1.5em;
+}
+
+.hangman-container {
+  position: relative;
+  width: 100%;
+  height: 23em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+}
+
+#hangPic {
+  width : 30%;
+  height : 30%
+}
+
+#hangButton {
+  width: 3em;
+  height: 3em;
+  border: solid grey;
+  margin: .25em;
+  border-radius: 50%;
+  background-color: wheat;
+}
+
+#hangText {
+  display: flex;
+  flex-direction: row;
+}
+
+#hangTextButton {
+  margin-left: 2em;
+}
