@@ -2,7 +2,7 @@
   "name": "PlayBox",
   "version": "1.0.0",
   "description": "",
-  "homepage": "http://Jimmei27.github.io/PlayBox",
+  "homepage": "https://Jimmei27.github.io/PlayBox/",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
